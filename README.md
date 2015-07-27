@@ -9,7 +9,15 @@ cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/startup-class/setup.git
 ./setup/setup.sh   
+
 ```
+
+Alternatively, just do
+```
+bash <(wget -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_WHATEVER.sh -O - )
+```
+
+To automate everything.
 
 See also http://github.com/startup-class/dotfiles and
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
