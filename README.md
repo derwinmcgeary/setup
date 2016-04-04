@@ -16,16 +16,21 @@ git clone https://github.com/startup-class/setup.git
 
 Alternatively, just do
 ```
-bash <(wget -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_WHATEVER.sh -O - )
+bash <(wget --no-check-certificate -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_WHATEVER.sh -O - )
 ```
 Where WHATEVER will vary depending on which scripts I add here, for example:
 For RStudio
 ```
-bash <(wget -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_rstudio.sh -O - )
+bash <(wget --no-check-certificate -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_rstudio.sh -O - )
 ```
 For Android dev
 ```
-bash <(wget -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_android.sh -O - )
+bash <(wget --no-check-certificate -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_android.sh -O - )
+```
+
+For Hadoop on Centos
+```
+bash <(wget --no-check-certificate -q https://raw.githubusercontent.com/derwinmcgeary/setup/master/setup_centos_hadoop.sh -O - )
 ```
 
 So cut and paste those lines to automate everything.
