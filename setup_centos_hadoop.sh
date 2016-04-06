@@ -12,6 +12,7 @@ ulimit -n 10000
 yum -y install ntp
 ntpdate 0.centos.pool.ntp.org
 service ntpd start
+chkconfig ntpd on
 ntpstat
 cd /opt
 
